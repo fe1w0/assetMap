@@ -8,6 +8,9 @@ import (
 	"os"
 	"runtime"
 )
+
+
+
 func main() {
 	app := &cli.App{
 		Name: "assetMap",
