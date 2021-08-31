@@ -4,11 +4,9 @@
 - [x] 利用sync和的channel,实现并发协程
 - [x] 利用nmap公开的指纹 [nmap-service-probes](https://svn.nmap.org/nmap/nmap-service-probes) ,来识别端口服务,
 
-> 但依旧不全面,如正则匹配效果不佳,无banner输出的服务无法判断,如135,需要进一步改进
+> 但依旧不全面,如正则匹配效果不佳,无banner输出的服务无法判断,如135,需要进一步改进和对nmap 的原理进一步学习
 
 此外,针对绕过防火墙的绕过,如http请求走私，随机化地址扫描,以及速度和识别率上的进一步提高，如采用多次扫描,修改`ulimit`。以及，对最后数据的处理上，对网站进行指纹识别和分析服务之间的关系。
-
-
 
 ## 使用方法
 
@@ -48,7 +46,7 @@ GLOBAL OPTIONS:
 
 ## 应用测试
 
-![image-20210831035456698](../../../../../Library/Application Support/typora-user-images/image-20210831035456698.png)
+![image-20210831035456698](http://img.xzaslxr.xyz/20210831085641.png)
 
 
 
